@@ -22,7 +22,7 @@ function handleKeyPress(ev){
 export default function SearchBar() { 
   return (
     <div className="SearchBar">      
-      <img src={image} />
+      <img src={image} alt="someimg" />
       <input type="text" placeholder="Enter github username" onKeyPress={handleKeyPress}></input>
     </div>
   );

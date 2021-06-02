@@ -5,7 +5,7 @@ import './Initial.css'
 export default function NotFound() {
   return(
     <div className="Initial">
-      <img src ={image} alt="image"/>
+      <img src ={image} alt="usefulalt"/>
       <p>User not found</p>
     </div>
   )

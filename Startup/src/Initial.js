@@ -5,7 +5,7 @@ import './Initial.css';
 export default function Initial() {
   return (
     <div className="Initial">
-      <img src ={image} alt="image"/>
+      <img src ={image} alt="usefulalt"/>
       <p>Start with a searching a GitHub user</p>
     </div>
   )

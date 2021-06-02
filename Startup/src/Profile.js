@@ -7,7 +7,7 @@ export default function Profile(props){
 return(
   <div className="ProfileInfo">
   <div className="ImageBox">
-    <img src={obj.avatar_url} />
+    <img src={obj.avatar_url} alt="someimg" />
   </div>
   <div className="UserInfos">
     <p>{obj.login}</p>
