@@ -7,11 +7,11 @@ export default function Profile(props){
 return(
   <div className="ProfileInfo">
   <div className="ImageBox">
-    <img src={obj.avatar_url} alt="image"/>
+    <img src={obj.avatar_url} />
   </div>
   <div className="UserInfos">
     <p>{obj.login}</p>
-    <a target="_blank" href={obj.html_url}>{obj.login}</a>
+    <a target="_blank" rel="noreferrer" href={obj.html_url}>{obj.login}</a>
     <div className="UserFollows">
         <span>
           {obj.followers} followers
