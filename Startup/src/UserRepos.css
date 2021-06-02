@@ -1,0 +1,21 @@
+.UserRepos {
+  width: 70%;
+}
+.UserRepos h2{
+  margin: 0;
+}
+
+.UserRepos div{
+  margin-top: 20px;
+  width: 80%;
+  border: 1px solid #cdcdcd;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+
+.UserRepos div a{
+  font-size: 24px;
+  text-decoration: none;
+  color: #0064EB;
+}

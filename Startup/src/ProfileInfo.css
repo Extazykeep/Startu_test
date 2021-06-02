@@ -1,0 +1,27 @@
+.ProfileInfo {
+  width: 30%;  
+  margin-left: 50px;
+}
+.ImageBox img{
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.UserInfos p{
+  font-size: 26px;
+  font-weight: bold;
+}
+.UserInfos a{
+  text-decoration: none;
+  color: #0064EB;  
+}
+.UserInfos {
+  text-align: left;
+}
+.UserFollows {
+  margin-top: 20px;
+}
+.UserFollows span {
+  margin-right: 20px;
+}

@@ -1,0 +1,6 @@
+.UserPage {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 20%;
+}
